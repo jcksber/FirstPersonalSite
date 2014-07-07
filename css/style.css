@@ -1,0 +1,236 @@
+body {
+    margin: auto;
+    width: 650px;
+    background-image: url("http://sounddrain.com/download/bg.png");
+    font-family: sans-serif;
+}
+
+.bodyBottom {
+    margin-bottom: 100px;    
+}
+
+#reverseA {
+    font-size: 61px;   
+}
+h1 {
+    color: #17E9D7;
+    font-size: 48px;
+    letter-spacing: 1px;
+    text-shadow: -5px -4px 0px #03A295;
+    
+    height: 50px;
+    
+    padding-left: 410px;
+    padding-top: 10px;
+}
+
+h2, h3, h4 {
+    color: white;   
+}
+
+p {
+    color: #d3d3d3;
+    letter-spacing: 1px;
+}
+p #email, #twitter {
+    color: #C0C700; 
+    text-decoration: none;
+}
+p #twitter:hover {
+    color: #F7FF00;
+}
+
+.navigationBar li {
+    display: inline;
+    padding-right: 20px;
+}
+.navigationBar #mainFrame, #programming, #tartanTennis {
+    border-right: solid 1px;
+    border-right-color: #d3d3d3;
+    
+    padding-right: 20px;
+}
+ul #mainFrame, #programming, #tartanTennis, #aboutMe {
+    text-decoration: none;
+    color: #17E9D7;
+    font-size: 20;
+}
+ul #mainFrame:hover, #programming:hover, #tartanTennis:hover, #aboutMe:hover {
+    color: #03A295;
+}
+
+.content{
+    width: 500px;
+    
+    float: left;
+}
+.content li {
+    color: #d3d3d3;
+    letter-spacing: 1px;
+}
+
+.content .post {
+    height: 150px;
+    width: 500px;
+    
+    background-color: #F4F4F4;
+    border: solid 1px;
+    border-color: #C2C2C2;
+}
+.post img {
+    height: 130px;
+    width: 165px;
+    
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+.postDate {
+    font-size: 12;
+    color: gray;
+    
+    padding-top: 5px;  
+}
+.postContent h3 {
+    color: #2D2D2D;
+    
+    width: 320px;
+    
+    padding-top: 0;
+    padding-bottom: 0;
+    float: right;
+}
+.user {
+    font-size: 14;
+    color: #03A295;
+    
+    padding-right: 10px;
+    float: right;
+}
+
+.coding p {
+    width: 380px;
+    
+    float: right;
+}
+.coding img {
+    width: 100px;
+    height: 100px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+#cal {
+    width: 455px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    float: left;
+}
+#cal h3 {
+    width: 455px;
+    margin: 0, 5px, 5px, 5px;
+    font-size: 13pt;
+    background: #03A295;
+    color: white;
+}
+#cal ul {
+    width: 480px;
+    margin: 0;
+    padding: 0;
+}
+#cal ul li {
+    width: 55px;
+    height: 55px;
+    float: left;
+    list-style: none;
+    border: solid 5px #fff;
+    border-color: #C52D2D;
+    margin: 0;
+    background:#17E9D7;
+}
+#cal ul .day {
+    background: #666;
+    color: #fff;
+    font-weight: bold;
+}
+#cal ul .reg {
+    background: #B5AAAA;
+}
+#cal ul .event {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #17E9D7;
+}
+
+.aboutme {
+    height: 200px;
+    
+    border-bottom: solid 1px;
+    border-bottom-color: #d3d3d3;
+    
+    padding-bottom: 5px;
+}
+.content .contactme {
+    padding-top: 10px;   
+}
+.aboutme p {
+    width: 370px;
+    
+    float: left;
+}
+.aboutme img {
+    height: 140px;
+    
+    padding-top: 20px;
+    float: right;
+}
+.sideBar{
+    padding-top: 68px;
+}
+.sideBar aside {
+    width: 110px;
+    
+    border-top: solid 3px;
+    border-top-color: #d3d3d3;
+    border-bottom: solid 3px;
+    border-bottom-color: #d3d3d3;
+    
+    float: right;
+}
+aside ul {
+    list-style: none;
+    
+    padding-left: 0;
+}
+.sideBar li {
+    padding-bottom: 5px;   
+}
+ul #facebookPic, #twitterPic {
+    height: 60px;
+    width: 60px;
+    
+    padding-left: 20px;
+    padding-bottom: 1px;
+}
+ul #youtubePic, #githubPic {
+    height: 70px;
+    width: 70px;
+    
+    padding-left: 15px;
+    padding-bottom: 1px;
+}
+a {
+    text-decoration: none;
+    font-size: 15;
+    color: #C0C700;
+}
+a:hover {
+    color: #F7FF00;   
+    transition-delay: .5;
+}
